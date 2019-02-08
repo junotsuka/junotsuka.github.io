@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* local css*/
+
+/* common */
+ h1 {
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: .1em;
+  margin: 100px 0;
+  font-size: 2.0rem;
+  text-align: center;
+}
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+nav a {
+  background: #d68d13;
+  border-radius: 40px;
+  color: #fff;
+  display: block;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  letter-spacing: .1em;
+}
+nav a:hover {
+  text-decoration: none;
+  background: #e69816;
+}
+footer p {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  padding-bottom: 44px;
+  font-size: 0.7rem;
+  color: #bfbfbf;
+}
+.waveCanvas {
+  width: 100%;
+  z-index: 1;
+}
+.cross a {
+  background: url(../images/cross.png)  center center no-repeat;
+  text-indent: -9999px;
+  width: 22px;
+  height: 22px;
+  background-size: 22px 22px;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+  position: fixed;
+}
+
+#index .indexBoxSec {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto 100px;
+  z-index: 2;
+  position: relative;
+}
+#index .indexBoxSec::after{
+  content:"";
+  display: block;
+  width:30%;
+}
+#index .indexBoxSec li {
+  width: 28%;
+  margin-bottom: 50px;
+  position: relative;
+}
+#index .indexBoxSec li a {
+  border: solid 1px #efefef;
+  display: block;
+}
+#index .indexBoxSec li img {
+  width: 100%;
+  vertical-align: bottom;
+}
+#index .indexBoxSec li dl {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+#index .indexBoxSec li dl dt {
+  color: #5f5f5f;
+}
+#index .indexBoxSec li dl dd {
+  color: #bfbfbf;
+}
+#index .indexBoxSec li .year {
+  position: absolute;
+  bottom: 50px;
+  right: -42px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  color: #bfbfbf;
+  font-size: 0.6rem;
+  letter-spacing: .1em;
+}
+#about section {
+  width: 60%;
+  margin: 100px auto;
+  z-index: 2;
+  position: relative;
+}
+#about ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#about ul li.icon {
+  width: 30%;
+}
+#about ul li.icon img {
+  width: 100%;
+}
+#about ul li.icon p {
+  line-height: 1.9em;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+#about ul li.icon p a {
+  display: inline-block;
+  padding-left: 10px;
+}
+#about ul li.contents {
+  width: 62%;
+}
+#about ul li.contents em {
+  color: #bfbfbf;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  display: block;
+  font-style: italic;
+}
+#about ul li.contents p {
+  line-height: 1.8em;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+#about ul li.contents span {
+  color: #5f5f5f;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 10px;
+}
+
+
+
+
+#project section {
+  width: 60%;
+  margin: 100px auto ;
+  z-index: 2;
+  position: relative;
+}
+#project h1 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .1em;
+  margin: 100px 0 30px;
+  font-size: 2.0rem;
+  text-align: center;
+}
+#project dl {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#project dl dt {
+  margin-bottom: 10px;
+}
+#project .article .thumb {
+  margin-bottom: 60px;
+}
+#project .article .thumb img {
+  width: 100%;
+}
+#project .article h2 {
+  margin-bottom: 20px;
+}
+#project .article em.url {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 0.9rem;
+}
+#project .article p {
+  line-height: 2.0em;
+  margin-bottom: 60px;
+}
+
+

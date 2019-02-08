@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* sp css*/
+
+
+@media only screen and (max-width: 960px) {
+
+#index .indexBoxSec li {
+  width: 45%;
+  margin-bottom: 36px;
+}
+#project section { width: 80%;}
+#about section { width: 80%;}
+#about ul li.icon { width: 25%;}
+#about ul li.contents {width: 70%;}
+
+}
+
+@media only screen and (max-width: 667px) {
+
+#index .indexBoxSec {
+  margin: 0 auto 90px;
+}
+#index .indexBoxSec li {
+  width: 100%;
+  margin-bottom: 30px;
+}
+#about ul li.icon {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#about ul li.contents {width: 100%;}
+#about ul li.contents span {
+  line-height: 1.4rem;
+}
+
+
+
+
+
+
+
+
+}
